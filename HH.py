@@ -53,38 +53,7 @@ if __name__ == "__main__":
 
 
 
-# HOST = 'https://spb.hh.ru/search/vacancy?text=python&area=1&area=2'
-#
-# KEYWORDS = ['Django', 'Flask']
-#
-# def get_headers():
-#     pass
-# response = requests.get(HOST, headers=get_headers())
-# SOURCE = response.text
-#
-# def get_headers():
-#     headers = Headers(browser='opera', os='win')
-#     return headers.generate()
-# soup = BeautifulSoup(SOURCE, features ='lxml')
-#
-#
-# vacancies = []
-#
-#
-# for article in soup.findAll('article'):
-#     link = article.find('a', class_='serp-item_title')['href']
-#     salary = article.find('span', class_='bloko-header-section-3').text
-#     company = article.find('a', class_='bloko-link bloko-linkkind-tertiary').text
-#     city = article.find(class_='bloko-text').text
-#
-#     vacancies.append({
-#              'link': link,
-#              'salary': salary,
-#              'company': company,
-#              'city': city
-#              })
-#
-#     print(vacancies)
+
 
 
 
